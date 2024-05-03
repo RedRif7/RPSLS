@@ -8,7 +8,7 @@ $checkWinner = [
 ];
 
 function choices($playerChoice, $checkWinner){
-    $choices = array("rock","paper","scissors","lizard","spock");
+    $choices = ["rock","paper","scissors","lizard","spock"];
     $computerChoice = $choices[array_rand($choices)];
     if($playerChoice === $computerChoice ){
         echo "It's a draw \n";
